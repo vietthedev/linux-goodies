@@ -1,0 +1,16 @@
+[Unit]
+Description=Noisetorch Noise Cancelling
+Requires=sys-devices-pci0000:00-0000:00:1f.3-sound-card0-controlC0.device
+After=sys-devices-pci0000:00-0000:00:1f.3-sound-card0-controlC0.device
+After=pipewire.service
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=%h/.local/bin/noisetorch -i -s alsa_input.pci-0000_00_1f.3.analog-stereo -t 95
+ExecStop=%h/.local/bin/noisetorch -u
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target

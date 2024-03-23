@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=64Gram Desktop
+Comment=Unofficial desktop version of Telegram messaging app
+TryExec=/opt/64Gram/Telegram
+Exec=/opt/64Gram/Telegram -- %u
+Icon=telegram
+Terminal=false
+StartupWMClass=io.github.tdesktop_x64.TDesktop
+Type=Application
+Categories=Chat;Network;InstantMessaging;Qt;
+MimeType=x-scheme-handler/tg;
+Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;
+Actions=quit;
+DBusActivatable=true
+SingleMainWindow=true
+X-GNOME-UsesNotifications=true
+X-GNOME-SingleWindow=true
+
+[Desktop Action quit]
+Exec=/opt/64Gram/Telegram -quit
+Name=Quit Telegram
+Icon=application-exit
