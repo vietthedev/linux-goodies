@@ -17,7 +17,7 @@ dnf install -y intel-media-driver
 dnf install -y --allowerasing ffmpeg
 
 # Install essential packages
-dnf install -y curl unzip git speech-dispatcher neovim gvfs-smb gvfs-fuse fcitx5-unikey
+dnf install -y curl unzip htop git speech-dispatcher neovim gvfs-smb gvfs-fuse fcitx5-unikey
 
 # Install fnm
 curl -fsSL https://fnm.vercel.app/install | bash
