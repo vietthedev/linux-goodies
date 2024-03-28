@@ -17,4 +17,4 @@ sudo dnf install -y intel-media-driver
 sudo dnf install -y --allowerasing ffmpeg
 
 # Install essential packages
-sudo dnf install -y curl unzip htop neovim fcitx5-unikey fcitx5-autostart
+sudo dnf install -y curl unzip htop neovim fcitx5-unikey fcitx5-autostart dbus-glib
