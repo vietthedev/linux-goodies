@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install packages for extracting fonts
-dnf install curl cabextract xorg-x11-font-utils fontconfig xset
+dnf -y install curl cabextract xorg-x11-font-utils fontconfig xset
 
 # Install FiraCode Nerd font
 curl -LJO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
