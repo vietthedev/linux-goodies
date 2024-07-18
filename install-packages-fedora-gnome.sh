@@ -21,4 +21,4 @@ sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/ho
 sudo dnf install -y ibus-bamboo
 
 # Install essential packages
-sudo dnf install -y fuse curl unzip htop neovim gnome-tweaks gnome-extensions-app speech-dispatcher speech-dispatcher-utils
+sudo dnf install -y fuse curl unzip btop neovim gnome-tweaks gnome-extensions-app speech-dispatcher speech-dispatcher-utils
