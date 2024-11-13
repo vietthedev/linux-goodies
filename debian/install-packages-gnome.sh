@@ -19,4 +19,4 @@ sudo apt update
 sudo apt -y install ibus-bamboo
 
 # Install essential packages
-sudo apt -y install curl unzip btop neovim intel-media-va-driver-non-free libavcodec-extra
+sudo apt -y install curl unzip btop neovim intel-media-va-driver-non-free libavcodec-extra gstreamer1.0-vaapi
