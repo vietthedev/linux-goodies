@@ -1,3 +1,6 @@
 # fnm
-set PATH "/home/salad/.local/share/fnm" $PATH
-fnm env --use-on-cd | source
+set FNM_PATH "/home/salad/.local/share/fnm"
+if [ -d "$FNM_PATH" ]
+  set PATH "$FNM_PATH" $PATH
+  fnm env | source
+end
