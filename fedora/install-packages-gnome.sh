@@ -17,7 +17,7 @@ sudo dnf install -y intel-media-driver
 sudo dnf install -y ffmpeg
 
 # Install ibus-bamboo
-sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:lamlng/Fedora_40/home:lamlng.repo
+sudo dnf config-manager addrepo --from-repofile=https://download.opensuse.org/repositories/home:lamlng/Fedora_$(rpm -E %fedora)/home:lamlng.repo
 sudo dnf install -y ibus-bamboo
 
 # Install essential packages
