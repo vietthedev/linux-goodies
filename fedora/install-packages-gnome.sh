@@ -14,7 +14,7 @@ sudo dnf -y install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-rel
 sudo dnf install -y intel-media-driver
 
 # Install full ffmpeg
-sudo dnf install -y --allowerasing ffmpeg
+sudo dnf install -y ffmpeg
 
 # Install ibus-bamboo
 sudo dnf config-manager --add-repo https://download.opensuse.org/repositories/home:lamlng/Fedora_40/home:lamlng.repo
